@@ -15,7 +15,7 @@ body{
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -27,15 +27,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 30px 40px;
     position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 .hero {
   text-align: center;
   padding: 80px 20px;
+}
+
+.hero h1{
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -44,11 +47,12 @@ body{
   color: #4b43ec;
 }
 
+/* .preview section */
 .preview {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* gap: 100px; */
+  align-items: center;
+  gap: 100px;
   padding: 60px 40px;
   flex-wrap: wrap;
   background: white;
@@ -58,7 +62,42 @@ body{
   max-width: 300px;
 }
 
+.preview-left h3{
+    margin-bottom: 20px;
+}
+
+.preview-left p{
+    margin-bottom: 15px;
+    color: #707070;
+}
+
 .preview-img {
-  border-radius: 12px;
+  border-radius: 30px;
   max-width: 300px;
 }
+
+/* productive section */
+.productive{
+    background: #e2d4f5;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+.productive h3{
+    margin-bottom: 30px;
+}
+
+.productive-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.productive-boxes h2{
+    color: #672aca;
+    
+}
+
+
