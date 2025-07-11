@@ -82,6 +82,7 @@ body{
     text-align: center;
     padding: 10px 5px;
     border-radius: 10px;
+    margin: 166px 301px 137px 283px;
 }
 
 .productive h3{
@@ -100,4 +101,21 @@ body{
     
 }
 
+/* focus section */
+.focus{
+    text-align: center;
+    background: #f8f5f5;
+    padding: 60px 20px;
+}
+
+.focus p{
+    margin-bottom: 20px;
+    color: #555454;
+}
+
+.focus img{
+    max-width: 90%;
+    margin-top: 20px;
+    border-radius: 12px;
+}
 
