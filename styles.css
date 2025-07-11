@@ -18,6 +18,7 @@ body{
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
+    
 }
 
 .back-img{
@@ -78,7 +79,7 @@ body{
 
 /* productive section */
 .productive{
-    /* font-size: larger; */
+    font-size: larger;
     background: #e2d4f5;
     text-align: center;
     padding: 10px 5px;
@@ -100,6 +101,77 @@ body{
 
 .productive-boxes p{
     color: #8b8b8b;
+}
+
+
+
+/* review section */
+.review{
+    text-align: center;
+    padding: 130px 0 100px 0;
+}
+
+.review-container{
+    width: 1140px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.review-box{
+    text-align: left;
+    background: white;
+    border: 1px solid #f2eded;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366px;
+    /* height: 243px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.review-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.review-child-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.review-child-box h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 6px;
+}
+
+.review-child-box p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+.review-child-box img {
+    width: 40px;
+    height: 40px;
+    border-radius: 99px;
 }
 
 
