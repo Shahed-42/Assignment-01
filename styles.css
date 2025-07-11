@@ -18,8 +18,12 @@ body{
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
-    
 }
+
+.btn:hover{
+    background-color: #F0C40F;
+}
+
 
 .back-img{
     background-image: url(./Media/Hero-bg.png);
@@ -128,7 +132,6 @@ body{
     border-radius: 14px;
     padding: 24px;
     width: 366px;
-    /* height: 243px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
